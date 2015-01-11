@@ -455,7 +455,7 @@ MY_CFLAGS_Debug := \
 	-Wno-type-limits \
 	-Wno-unused-but-set-variable \
 	-fno-stack-protector \
-	-Os \
+	-w -O3 \
 	-g \
 	-fdata-sections \
 	-ffunction-sections \
@@ -617,7 +617,7 @@ MY_CFLAGS_Release := \
 	-Wno-type-limits \
 	-Wno-unused-but-set-variable \
 	-fno-stack-protector \
-	-Os \
+	-w -O3 \
 	-fno-ident \
 	-fdata-sections \
 	-ffunction-sections \
